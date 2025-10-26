@@ -14,7 +14,7 @@ export const minikitConfig = {
     "signature": ""
   },
   miniapp: {
-    version: "0.1",
+    version: "1",
     name: "Dusk to Dawn", 
     subtitle: "from the darkness comes the light", 
     description: "First comes darkness, and when the light is most needed that comes Dawn",
