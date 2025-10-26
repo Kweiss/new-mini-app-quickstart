@@ -8,16 +8,16 @@ const ROOT_URL =
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
 export const minikitConfig = {
-  accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
+  accountAssociation: { // this will be added in step 5
+    "header": "",
+    "payload": "",
+    "signature": ""
   },
   miniapp: {
-    version: "1",
-    name: "Cubey", 
-    subtitle: "Your AI Ad Companion", 
-    description: "Ads",
+    version: "0.1",
+    name: "Dusk to Dawn", 
+    subtitle: "from the darkness comes the light", 
+    description: "First comes darkness, and when the light is most needed that comes Dawn",
     screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
     iconUrl: `${ROOT_URL}/blue-icon.png`,
     splashImageUrl: `${ROOT_URL}/blue-hero.png`,
